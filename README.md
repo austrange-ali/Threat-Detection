@@ -44,15 +44,15 @@ The `.env` file has been pre-configured. You need to add your Gemini API key:
 
 ```env
 # MongoDB - Already configured
-MONGODB_URI=mongodb+srv://SecuresME:elieshane@secures-me.foxs27o.mongodb.net/?appName=Secures-ME
+MONGODB_URI=
 
 # VirusTotal - Already configured
-VIRUSTOTAL_API_KEY=4f37f86602c5e9af2addf3d8aea54a78117946f3edc87812ad735e004f8b775e
+VIRUSTOTAL_API_KEY=
 
 # Cloudinary - Already configured
-CLOUDINARY_CLOUD_NAME=db60yjwkj
-CLOUDINARY_API_KEY=662755315218489
-CLOUDINARY_API_SECRET=Qmm9B2WvaNv1FzD-P1F3Pd1jGZM
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 
 # Gemini AI - ADD YOUR KEY HERE
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -60,7 +60,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### 3. Get Gemini API Key
 
-- Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 - Sign in with your Google account
 - Create an API key for Gemini
 - Copy and paste it into the `.env` file
